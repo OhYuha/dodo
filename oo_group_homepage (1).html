@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OO그룹</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- ================= 헤더 영역 ================= -->
+  <header class="flex items-center justify-between px-8 py-4 bg-white shadow-md">
+    <!-- 로고: 클릭 시 메인 페이지로 이동 -->
+    <a href="/index.html" class="flex items-center space-x-3 hover:opacity-80 transition">
+      <img src="/images/logo.png" alt="OO그룹 로고" class="h-10 w-10 object-contain" />
+      <span class="text-xl font-bold">OO그룹</span>
+    </a>
+
+    <!-- 상단바: 소속 회사들 (각 회사 페이지로 이동) -->
+    <nav class="flex space-x-6">
+      <a href="/company1.html" class="hover:text-blue-600 transition">OO전자</a>
+      <a href="/company2.html" class="hover:text-blue-600 transition">OO물산</a>
+      <a href="/company3.html" class="hover:text-blue-600 transition">OO건설</a>
+      <a href="/company4.html" class="hover:text-blue-600 transition">OO화학</a>
+    </nav>
+  </header>
+
+  <!-- ================= 메인 콘텐츠 영역 ================= -->
+  <main class="p-8 text-center">
+    <!-- 메인 문구 -->
+    <h1 class="text-3xl font-semibold mb-4">OO그룹에 오신 것을 환영합니다</h1>
+    <p class="text-gray-600 mb-8">상단의 소속 회사를 클릭하면 각 회사의 독립 페이지로 이동합니다.</p>
+
+    <!-- 회사별 링크 카드: 각 회사 정보로 연결 -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+      <!-- OO전자 카드 -->
+      <a href="company1.html" class="bg-white rounded-2xl shadow hover:shadow-lg transition p-6">
+        <h2 class="text-xl font-semibold mb-2 text-blue-600">OO전자</h2>
+        <p class="text-gray-500">전자제품과 기술 혁신의 선두주자</p>
+      </a>
+
+      <!-- OO물산 카드 -->
+      <a href="company2.html" class="bg-white rounded-2xl shadow hover:shadow-lg transition p-6">
+        <h2 class="text-xl font-semibold mb-2 text-green-600">OO물산</h2>
+        <p class="text-gray-500">글로벌 무역과 유통의 중심</p>
+      </a>
+
+      <!-- OO건설 카드 -->
+      <a href="company3.html" class="bg-white rounded-2xl shadow hover:shadow-lg transition p-6">
+        <h2 class="text-xl font-semibold mb-2 text-yellow-600">OO건설</h2>
+        <p class="text-gray-500">혁신적인 인프라와 건축 솔루션</p>
+      </a>
+
+      <!-- OO화학 카드 -->
+      <a href="company4.html" class="bg-white rounded-2xl shadow hover:shadow-lg transition p-6">
+        <h2 class="text-xl font-semibold mb-2 text-red-600">OO화학</h2>
+        <p class="text-gray-500">첨단 소재와 친환경 기술</p>
+      </a>
+    </div>
+  </main>
+
+  <!-- ================= 푸터 (추가 예정 가능) ================= -->
+  <!-- <footer class="text-center py-6 text-gray-500 text-sm">© 2025 OO그룹. All rights reserved.</footer> -->
+</body>
+</html>
