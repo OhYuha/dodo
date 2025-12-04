@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OO그룹 OO전자</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- ================= 헤더 영역 ================= -->
+  <header class="flex items-center justify-between px-8 py-4 bg-white shadow-md">
+    <!-- 로고: 클릭 시 메인 페이지로 이동 -->
+    <a href="/index.html" class="flex items-center space-x-3 hover:opacity-80 transition">
+      <img src="/images/logo.png" alt="OO그룹 로고" class="h-10 w-10 object-contain" />
+      <span class="text-xl font-bold">OO그룹 <span class="text-blue-600">OO전자</span></span>
+    </a>
+
+    <!-- 상단바: 소속 회사들 -->
+    <nav class="flex space-x-6">
+      <a href="/유하전자.html" class="hover:text-blue-600 transition">유하전자</a>
+      <a href="/도도컴퍼니.html" class="hover:text-blue-600 transition">도도컴퍼니</a>
+      <a href="/도도캠핑.html" class="hover:text-blue-600 transition">도도캠핑</a>
+      <a href="/건설.html" class="hover:text-blue-600 transition">유하건설</a>
+    </nav>
+  </header>
+
+  <!-- ================= 메인 콘텐츠 영역 ================= -->
+  <main class="p-10 max-w-4xl mx-auto">
+    <!-- 회사 소개 제목 -->
+    <h1 class="text-4xl font-bold mb-6 text-blue-600">유하전자</h1>
+
+    <!-- 회사 설명 -->
+    <p class="text-gray-700 leading-relaxed mb-10">
+      유하전자는 혁신적인 기술과 전자제품을 선도하는 기업으로, 다양한 제품군을 통해 글로벌 시장에서 경쟁력을 갖추고 있습니다.
+      최신 기술 개발과 품질 중심의 경영 철학을 기반으로 성장하고 있습니다.
+    </p>
+
+    <!-- 제품/사업 영역 카드 -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div class="bg-white shadow rounded-xl p-6 hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold mb-2">주요 제품</h2>
+        <p class="text-gray-600">스마트폰, TV, 가전제품 등 다양한 분야의 전자제품 생산</p>
+      </div>
+
+      <div class="bg-white shadow rounded-xl p-6 hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold mb-2">기술 연구</h2>
+        <p class="text-gray-600">AI, 반도체, IoT 기술 분야의 지속적인 연구 개발</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
